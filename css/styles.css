@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+	background: #ffffff;
+	background-image: url("https://www.teahub.io/photos/full/4-42760_thor-ragnarok-wallpaper-4k.jpg");
+	background-size: cover;
+
+}
+
+.container{
+	color: white;
+	position: absolute;
+	left: 41%;
+	top: 29%;
+}
+
+.container h1{
+	display: inline-block;
+	font-size: 40px;
+	border-bottom: 5px solid green;
+	margin-bottom: 42px
+	
+}
+.box{
+	width: 100%;
+	border-bottom: 2px solid green;
+	
+}
+.box input{
+	background:none;
+	width: 100%;
+	margin: 2px 23px;
+	padding: 10px 9px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+.btn{
+	cursor: pointer;
+	outline: none;
+	margin: 12px 0;
+	padding: 10px 120px;
+	border: 12px green;
+	border-radius: 10px;
+	font-size: 18px;
+	background:none;
+	color: white;
+}
